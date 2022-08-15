@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+
+  mongo:
+    image: mongo
+    container_name: mongodb_lab
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=root2022
+    ports:
+      - "27017:27017"
+    volumes:
+      - $HOME/Projects/nosql_lab/mongodb_lab:/data/db

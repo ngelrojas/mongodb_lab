@@ -1,0 +1,8 @@
+*.wt
+W*.*
+journal
+diagnostic.data
+mongod.lock
+storage.bson
+.dbshell
+.mongorc.js
