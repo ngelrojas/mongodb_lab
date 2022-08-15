@@ -6,3 +6,4 @@ mongod.lock
 storage.bson
 .dbshell
 .mongorc.js
+WiredTiger
