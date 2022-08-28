@@ -11,4 +11,4 @@ services:
     ports:
       - "27017:27017"
     volumes:
-      - $HOME/Projects/nosql_lab/mongodb_lab:/data/db
+      - ./mongo-voume:/data/db
